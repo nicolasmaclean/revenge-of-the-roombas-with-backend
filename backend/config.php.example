@@ -1,0 +1,10 @@
+<?php
+  function get_config()
+  {
+    return [
+      'secret' => 'CHANGE-ME!',
+      'db_path' => __DIR__ . '/data/leaderboard.sqlite',
+    ];
+  }
+?>
+
