@@ -1,9 +1,0 @@
-
-=== Wed Sep  2 11:15:43 2026
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.ide.visualstudio from version 2.0.14 to 2.0.18
-  com.unity.render-pipelines.high-definition from version 10.8.1 to 10.10.1

@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-arcade-jam/[Ll]ibrary/
-arcade-jam/[Tt]emp/
-arcade-jam/[Oo]bj/
-arcade-jam/[Bb]uild/
-arcade-jam/[Bb]uilds/
-arcade-jam/[Ll]ogs/
-arcade-jam/[Uu]ser[Ss]ettings/
+game/[Ll]ibrary/
+game/[Tt]emp/
+game/[Oo]bj/
+game/[Bb]uild/
+game/[Bb]uilds/
+game/[Ll]ogs/
+game/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
