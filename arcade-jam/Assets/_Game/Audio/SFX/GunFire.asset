@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1340cce3be2114ba32f9bc1b082964, type: 3}
+  m_Name: GunFire
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: ce48f3b1847ba2d4dbf392a0c4fa82e5, type: 3}
+  _volume: 0.2
+  _delay: 0

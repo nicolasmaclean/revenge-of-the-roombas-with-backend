@@ -1,0 +1,16 @@
+{
+    "name": "GameAudio",
+    "rootNamespace": "GameAudio",
+    "references": [
+        "GUID:586854f4b365d544c87f27162b36bb52"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
