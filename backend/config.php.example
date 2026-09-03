@@ -6,5 +6,4 @@
       'db_path' => __DIR__ . '/data/leaderboard.sqlite',
     ];
   }
-?>
 
