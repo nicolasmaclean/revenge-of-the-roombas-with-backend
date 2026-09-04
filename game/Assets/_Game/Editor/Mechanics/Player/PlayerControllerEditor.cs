@@ -6,7 +6,7 @@ using UnityEditor;
 namespace Game.Player
 {
     //[CustomEditor(typeof(PlayerController))]
-    public class PlayerControllerEditor : Editor
+    public class PlayerControllerEditor : UnityEditor.Editor
     {
         SerializedProperty _moveSpeedProperty;
         SerializedProperty _horizontalAxisProperty;
