@@ -65,5 +65,5 @@ php -S localhost:8080 -t public
 
 ## Notes
 
-HMAC signing only deters casual tatmpering since the secret will also need to ship with the client binary.
+HMAC signing only deters casual tampering since the secret will also need to ship with the client binary.
 
