@@ -31,9 +31,9 @@
     {
       $query = $this->pdo->prepare('
         SELECT initials, score, created_at
-        FROM scores 
-        ORDER BY score
-        DESC LIMIT ?
+        FROM scores
+        ORDER BY score DESC, id ASC
+        LIMIT ?
       ');
       $query->bindValue(1, $limit, PDO::PARAM_INT);
       $query->execute();
@@ -52,9 +52,11 @@
     public function rankFor(int $scoreId): int
     {
       $query = $this->pdo->prepare(
-        'SELECT COUNT(*) + 1 FROM scores WHERE score > (SELECT score FROM scores WHERE id = ?)'
+        'SELECT COUNT(*) + 1 FROM scores
+         WHERE score > (SELECT score FROM scores WHERE id = ?)
+            OR (score = (SELECT score FROM scores WHERE id = ?) AND id < ?)'
       );
-      $query->execute([$scoreId]);
+      $query->execute([$scoreId, $scoreId, $scoreId]);
       return (int) $query->fetchColumn();
     }
 
